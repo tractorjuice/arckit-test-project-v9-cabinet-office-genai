@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-22T10:30:00Z",
+  "generated": "2026-01-22T00:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v9-cabinet-office-genai",
@@ -15,8 +15,18 @@
   "projects": [
     {
       "id": "001-cabinet-office-genai",
-      "name": "Cabinet Office GenAI",
+      "name": "Cabinet Office GenAI Platform",
       "documents": [
+        {
+          "path": "projects/001-cabinet-office-genai/README.md",
+          "title": "Project Overview",
+          "category": "Overview"
+        },
+        {
+          "path": "projects/001-cabinet-office-genai/PROJECT-STORY.md",
+          "title": "Project Story",
+          "category": "Overview"
+        },
         {
           "path": "projects/001-cabinet-office-genai/stakeholder-drivers.md",
           "title": "Stakeholder Drivers",
@@ -26,11 +36,6 @@
           "path": "projects/001-cabinet-office-genai/requirements.md",
           "title": "Requirements",
           "category": "Discovery"
-        },
-        {
-          "path": "projects/001-cabinet-office-genai/risk-register.md",
-          "title": "Risk Register",
-          "category": "Governance"
         },
         {
           "path": "projects/001-cabinet-office-genai/project-plan.md",
@@ -48,8 +53,18 @@
           "category": "Architecture"
         },
         {
+          "path": "projects/001-cabinet-office-genai/risk-register.md",
+          "title": "Risk Register",
+          "category": "Governance"
+        },
+        {
           "path": "projects/001-cabinet-office-genai/traceability-matrix.md",
           "title": "Traceability Matrix",
+          "category": "Governance"
+        },
+        {
+          "path": "projects/001-cabinet-office-genai/analysis-report.md",
+          "title": "Analysis Report",
           "category": "Governance"
         },
         {
@@ -76,16 +91,6 @@
           "path": "projects/001-cabinet-office-genai/dpia.md",
           "title": "Data Protection Impact Assessment",
           "category": "Compliance"
-        },
-        {
-          "path": "projects/001-cabinet-office-genai/analysis-report.md",
-          "title": "Analysis Report",
-          "category": "Governance"
-        },
-        {
-          "path": "projects/001-cabinet-office-genai/PROJECT-STORY.md",
-          "title": "Project Story",
-          "category": "Overview"
         }
       ],
       "diagrams": [],
