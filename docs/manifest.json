@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-22T00:00:00Z",
+  "generated": "2026-01-23T00:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v9-cabinet-office-genai",
@@ -65,6 +65,16 @@
         {
           "path": "projects/001-cabinet-office-genai/analysis-report.md",
           "title": "Analysis Report",
+          "category": "Governance"
+        },
+        {
+          "path": "projects/001-cabinet-office-genai/coverage-report.md",
+          "title": "Coverage Report",
+          "category": "Governance"
+        },
+        {
+          "path": "projects/001-cabinet-office-genai/gaps.md",
+          "title": "Gaps Analysis",
           "category": "Governance"
         },
         {
