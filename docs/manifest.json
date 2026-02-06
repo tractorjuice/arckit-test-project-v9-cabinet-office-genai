@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-05T12:00:00Z",
+  "generated": "2026-02-06T12:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v9-cabinet-office-genai",
@@ -16,6 +16,12 @@
     {
       "path": "docs/guides/stakeholders.md",
       "title": "Stakeholder Analysis Playbook",
+      "category": "Discovery",
+      "status": "live"
+    },
+    {
+      "path": "docs/guides/stakeholder-analysis.md",
+      "title": "Stakeholder Analysis Guide",
       "category": "Discovery",
       "status": "live"
     },
@@ -312,6 +318,12 @@
       "title": "Template Customization Guide",
       "category": "Other",
       "status": "experimental"
+    },
+    {
+      "path": "docs/guides/upgrading.md",
+      "title": "Upgrading ArcKit",
+      "category": "Other",
+      "status": "beta"
     }
   ],
   "global": [
@@ -323,6 +335,8 @@
       "isDefault": true
     }
   ],
+  "globalExternal": [],
+  "globalPolicies": [],
   "projects": [
     {
       "id": "001-cabinet-office-genai",
@@ -377,6 +391,12 @@
           "documentId": "ARC-001-TRAC-v1.0"
         },
         {
+          "path": "projects/001-cabinet-office-genai/ARC-001-ANAL-v1.0.md",
+          "title": "Architecture Governance Analysis Report",
+          "category": "Governance",
+          "documentId": "ARC-001-ANAL-v1.0"
+        },
+        {
           "path": "projects/001-cabinet-office-genai/ARC-001-TCOP-v1.0.md",
           "title": "Technology Code of Practice (TCoP) Review",
           "category": "Compliance",
@@ -407,12 +427,6 @@
           "documentId": "ARC-001-DPIA-v1.0"
         },
         {
-          "path": "projects/001-cabinet-office-genai/ARC-001-ANAL-v1.0.md",
-          "title": "Architecture Governance Analysis Report",
-          "category": "Other",
-          "documentId": "ARC-001-ANAL-v1.0"
-        },
-        {
           "path": "projects/001-cabinet-office-genai/ARC-001-STORY-v1.0.md",
           "title": "Project Story",
           "category": "Other",
@@ -420,11 +434,13 @@
         }
       ],
       "diagrams": [],
+      "research": [],
       "decisions": [],
       "wardleyMaps": [],
       "dataContracts": [],
       "reviews": [],
-      "vendors": []
+      "vendors": [],
+      "external": []
     }
   ]
 }
